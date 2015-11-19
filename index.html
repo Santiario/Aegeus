@@ -3,17 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Vemunds hjemmeområde</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
 </head>
 <body>
-<div class="header pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading pure-menu-link">Projects</a>
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Dusken</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">iBok</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Barteguiden</a></li>
-    </ul>
+
+    <div class="ui attached stackable menu">
+        <div class="ui container">
+        <a class="item" href="#"><i class="home icon"></i>Home</a>
+        <a class="item" href="https://github.com/Santiario"><i class="github icon"></i>GitHub</a>
+    </div>
+    </div>
+<div class="ui container">
+        <h2>Welcome to my homepage. Here are some of the projects I've been working on:</h2>
+    <div class="ui segment">
+        <div class="ui grid">
+            <div class="ui four wide column">
+                <h3>
+                    Kollektivet <a href="https://github.com/TheSimoms/Kollektivet"><i class="github square icon"></i></a>
+                    <a href="http://kollektivet.azurewebsites.net/"><i class="browser icon"></i></a>
+                </h3>
+                <div class="ui divider"></div>
+                A 18 hour long project made during a hackathon organized by Microsoft at NTNU
+            </div>
+            <div class="ui four wide column">
+                <h3>
+                    Webtek <a href="https://github.com/Santiario/WebTek"><i class="github square icon"></i></a>
+                    <a href="http://folk.ntnu.no/vemundms/webtek/"><i class="browser icon"></i></a>
+                </h3>
+                <div class="ui divider"></div>
+                My assignments and project in the course IT2805 - Web Technology at NTNU, autumn 2015
+            </div>
+            <div class="ui four wide column">
+                <h3>
+                    Aegeus <a href="https://github.com/Santiario/Aegeus"><i class="github square icon"></i></a>
+                    <a href="#"><i class="browser icon"></i></a>
+                </h3>
+                <div class="ui divider"></div>
+                This website. Made with Semantic UI, using Gulp to compile only the necessary components. Aegeus is greek
+                and means Zeus' shield
+            </div>
+            <div class="ui four wide column">
+                <h3>
+                    Algdat <a href="https://github.com/Santiario/AlgDat"><i class="github square icon"></i></a>
+                </h3>
+                <div class="ui divider"></div>
+                My assignments in TDT4120 - Algorithms and data structures at NTNU, autumn 2015
+            </div>
+        </div>
+    </div>
 </div>
+<script src="semantic/dist/semantic.min.js"></script>
 </body>
 </html>
