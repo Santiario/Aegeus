@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Santiario/Aegeus.png?label=ready&title=Ready)](https://waffle.io/Santiario/Aegeus)
 # Aegeus
 Repository for my homepage at http://vemund.santi.no
 
